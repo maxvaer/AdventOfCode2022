@@ -3,7 +3,7 @@ project(AoC22)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(AoC22 main.cpp Day1/day1.cpp)
+add_executable(AoC22 main.cpp Day1/day1.cpp Day2/day2.cpp)
 if (MSVC)
     target_compile_options(AoC22 PRIVATE /W4 /WX)
 endif ()
